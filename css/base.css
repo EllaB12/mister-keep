@@ -1,24 +1,17 @@
-@import './missKeep/cmps/note-img.css';
-@import './missKeep/cmps/note-todos.css';
-@import './missKeep/cmps/note-video.css';
-@import './missKeep/cmps/note-text.css';
-@import './missKeep/cmps/note-add.css';
-@import './missKeep/cmps/note-list.css';
-@import './missKeep/cmps/note-filter.css';
-@import './missKeep/pages/note-app.css';
-@import './misterEmail/cmps/email-filter.css';
-@import './misterEmail/cmps/email-list.css';
-@import './misterEmail/cmps/email-preview.css';
-@import './misterEmail/pages/email-app.css';
-@import './misterEmail/pages/email-details.css';
-@import './misterEmail/pages/email-compose.css';
-@import './mainApp/long-text.css';
-@import './mainApp/app-header.css';
-@import './misterEmail/cmps/email-sort.css';
-@import './misterEmail/cmps/email-navbar.css';
-@import './missKeep/cmps/note-color.css';
-@import './mainApp/pages/home.css';
-@import './missKeep/cmps/edit-note.css';
+@import "./mainApp/long-text.css";
+@import "./mainApp/app-header.css";
+@import "./missKeep/cmps/note-img.css";
+@import "./missKeep/cmps/note-todos.css";
+@import "./missKeep/cmps/note-video.css";
+@import "./missKeep/cmps/note-text.css";
+@import "./missKeep/cmps/note-add.css";
+@import "./missKeep/cmps/note-list.css";
+@import "./missKeep/cmps/note-filter.css";
+@import "./missKeep/pages/note-app.css";
+@import "./missKeep/cmps/note-color.css";
+@import "./mainApp/pages/home.css";
+@import "./missKeep/cmps/edit-note.css";
+
 * {
     box-sizing: border-box;
 }
@@ -31,24 +24,22 @@ html {
     font-family: Lato;
 }
 
-
 /* typography */
 
 @font-face {
     font-family: Inconsolata;
-    src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf)
+    src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf);
 }
 
 @font-face {
     font-family: Inconsolata-bold;
-    src: url(../fonts/Inconsolata/Inconsolata-Bold.ttf)
+    src: url(../fonts/Inconsolata/Inconsolata-Bold.ttf);
 }
 
 @font-face {
     font-family: Lato;
-    src: url(../fonts/Lato/Lato-Regular.ttf)
+    src: url(../fonts/Lato/Lato-Regular.ttf);
 }
-
 
 /* layout */
 
@@ -64,7 +55,6 @@ footer {
     color: white;
     font-size: 1.2rem;
 }
-
 
 /* helpers */
 

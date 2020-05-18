@@ -19,7 +19,7 @@
 }
 
 .add-lable {
-    width: 70px;
+    width: 100px;
     padding: 0px;
 }
 
@@ -39,12 +39,16 @@ input[type="radio"] {
     color: black;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 804px) {
     .note-add {
         padding: 10px 20px;
         width: 80%;
         margin: 0 auto 30px;
         flex-direction: column;
         align-items: center;
+    }
+
+    .add-lable {
+        padding: 10px 15px;
     }
 }

@@ -266,16 +266,6 @@ function _createNotes() {
             style: {
                 backgroundColor: '#FFB17A'
             }
-        },
-        {
-            type: 'noteVideo',
-            info: {
-                urlYouTubeId: '5xZ2S8uGjWI',
-                title: 'My video'
-            },
-            style: {
-                backgroundColor: '#80ED99'
-            }
         }
     ].map(_createNote);
 

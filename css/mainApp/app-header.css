@@ -4,7 +4,7 @@
 }
 
 .header-container {
-    padding: 5px 20px;
+    padding: 5px 5px;
 }
 
 .link {
@@ -15,18 +15,18 @@
 }
 
 .link:hover {
-    color: #506D21;
+    color: #506d21;
 }
 
 .router-link-active {
-    color: #506D21;
+    color: #506d21;
 }
 
 .logo {
     font-size: 2rem;
     font-family: Inconsolata-bold;
     text-decoration: none;
-    color: #162C01;
+    color: #162c01;
 }
 
 .screen {
@@ -39,7 +39,7 @@
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
-    transition: opacity .3s;
+    transition: opacity 0.3s;
     z-index: 99;
 }
 
@@ -70,7 +70,7 @@
         border-left: 1px solid rgba(153, 153, 153, 0.5);
         transform: translate(140%, 0);
         width: 33%;
-        transition: transform .6s;
+        transition: transform 0.6s;
     }
     .open-menu {
         transform: translate(0, 0);
